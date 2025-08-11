@@ -1,0 +1,11 @@
+{
+  "Microphone": "",
+  "3D_AI_Model_path": "dist/",
+  "Image_AI_Model_path": "dist/",
+  "Speech_AI_Model_path": "dist/",
+  "3D_AI_Model_filename": "generate_model.exe",
+  "Image_AI_Model_filename": "generate_image.exe",
+  "Speech_AI_Model_filename": "transcribe_audio.exe",
+  "prompt": "",
+  "transcript": ""
+}
