@@ -206,7 +206,7 @@ namespace ParadiseDesignerAI
             int controlHeight = 25;
             int labelWidth = 150;
             int spacingY = 35;
-            int textBoxWidth = 520;
+            int textBoxWidth = 760;
 
             // lblMic
             this.lblMic = new System.Windows.Forms.Label();
@@ -237,7 +237,7 @@ namespace ParadiseDesignerAI
             this.lblPrompt = new System.Windows.Forms.Label();
             this.lblPrompt.Text = "Enter prompt or use your speech:";
             this.lblPrompt.Location = new System.Drawing.Point(leftMargin, topStart + spacingY * 2);
-            this.lblPrompt.Size = new System.Drawing.Size(labelWidth + 160, controlHeight);
+            this.lblPrompt.Size = new System.Drawing.Size(580, controlHeight);
             this.lblPrompt.ForeColor = System.Drawing.Color.FromArgb(30, 30, 30);
 
             // txtPrompt
@@ -257,7 +257,7 @@ namespace ParadiseDesignerAI
             this.btnRecordMic = new System.Windows.Forms.Button();
             this.btnRecordMic.Text = "Record from Microphone";
             this.btnRecordMic.Location = new System.Drawing.Point(leftMargin, buttonsTop);
-            this.btnRecordMic.Size = new System.Drawing.Size(180, 40);
+            this.btnRecordMic.Size = new System.Drawing.Size(250, 40);
             this.btnRecordMic.BackColor = System.Drawing.Color.IndianRed;
             this.btnRecordMic.ForeColor = System.Drawing.Color.White;
             this.btnRecordMic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -267,8 +267,8 @@ namespace ParadiseDesignerAI
             // btnGenerate3D
             this.btnGenerate3D = new System.Windows.Forms.Button();
             this.btnGenerate3D.Text = "Generate 3D Object";
-            this.btnGenerate3D.Location = new System.Drawing.Point(leftMargin + 190, buttonsTop);
-            this.btnGenerate3D.Size = new System.Drawing.Size(160, 40);
+            this.btnGenerate3D.Location = new System.Drawing.Point(leftMargin + 260, buttonsTop);
+            this.btnGenerate3D.Size = new System.Drawing.Size(240, 40);
             this.btnGenerate3D.BackColor = System.Drawing.Color.MediumPurple;
             this.btnGenerate3D.ForeColor = System.Drawing.Color.White;
             this.btnGenerate3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -278,8 +278,8 @@ namespace ParadiseDesignerAI
             // btnGenerateImage
             this.btnGenerateImage = new System.Windows.Forms.Button();
             this.btnGenerateImage.Text = "Generate Image";
-            this.btnGenerateImage.Location = new System.Drawing.Point(leftMargin + 360, buttonsTop);
-            this.btnGenerateImage.Size = new System.Drawing.Size(160, 40);
+            this.btnGenerateImage.Location = new System.Drawing.Point(leftMargin + 510, buttonsTop);
+            this.btnGenerateImage.Size = new System.Drawing.Size(250, 40);
             this.btnGenerateImage.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnGenerateImage.ForeColor = System.Drawing.Color.White;
             this.btnGenerateImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -292,8 +292,8 @@ namespace ParadiseDesignerAI
             // btnOpenImageFolder
             this.btnOpenImageFolder = new System.Windows.Forms.Button();
             this.btnOpenImageFolder.Text = "Open Image Folder";
-            this.btnOpenImageFolder.Location = new System.Drawing.Point(leftMargin + 360, buttons2Top);
-            this.btnOpenImageFolder.Size = new System.Drawing.Size(160, 40);
+            this.btnOpenImageFolder.Location = new System.Drawing.Point(leftMargin + 510, buttons2Top);
+            this.btnOpenImageFolder.Size = new System.Drawing.Size(250, 40);
             this.btnOpenImageFolder.BackColor = System.Drawing.Color.Teal;
             this.btnOpenImageFolder.ForeColor = System.Drawing.Color.White;
             this.btnOpenImageFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -303,8 +303,8 @@ namespace ParadiseDesignerAI
             // btnOpen3DFolder
             this.btnOpen3DFolder = new System.Windows.Forms.Button();
             this.btnOpen3DFolder.Text = "Open 3D Folder";
-            this.btnOpen3DFolder.Location = new System.Drawing.Point(leftMargin + 190, buttons2Top);
-            this.btnOpen3DFolder.Size = new System.Drawing.Size(160, 40);
+            this.btnOpen3DFolder.Location = new System.Drawing.Point(leftMargin + 260, buttons2Top);
+            this.btnOpen3DFolder.Size = new System.Drawing.Size(240, 40);
             this.btnOpen3DFolder.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnOpen3DFolder.ForeColor = System.Drawing.Color.White;
             this.btnOpen3DFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -315,7 +315,7 @@ namespace ParadiseDesignerAI
             this.btnViewObjects = new System.Windows.Forms.Button();
             this.btnViewObjects.Text = "View Objects";
             this.btnViewObjects.Location = new System.Drawing.Point(leftMargin, buttons2Top);
-            this.btnViewObjects.Size = new System.Drawing.Size(180, 40);
+            this.btnViewObjects.Size = new System.Drawing.Size(250, 40);
             this.btnViewObjects.BackColor = System.Drawing.Color.FromArgb(178, 34, 34);
             this.btnViewObjects.ForeColor = System.Drawing.Color.White;
             this.btnViewObjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -328,8 +328,8 @@ namespace ParadiseDesignerAI
             // btnImportToGame
             this.btnImportToGame = new System.Windows.Forms.Button();
             this.btnImportToGame.Text = "Import to Game";
-            this.btnImportToGame.Location = new System.Drawing.Point(leftMargin + 170, buttons3Top);
-            this.btnImportToGame.Size = new System.Drawing.Size(200, 40);
+            this.btnImportToGame.Location = new System.Drawing.Point(leftMargin + 230, buttons3Top);
+            this.btnImportToGame.Size = new System.Drawing.Size(300, 40);
             this.btnImportToGame.BackColor = System.Drawing.Color.DarkOrange;
             this.btnImportToGame.ForeColor = System.Drawing.Color.White;
             this.btnImportToGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -376,6 +376,19 @@ namespace ParadiseDesignerAI
             this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelp.FlatAppearance.BorderSize = 0;
             this.btnHelp.Cursor = System.Windows.Forms.Cursors.Hand;
+
+            cmbMicrophones.TabIndex = 0;
+            txtFileName.TabIndex = 1;
+            txtPrompt.TabIndex = 2;
+            btnRecordMic.TabIndex = 3;
+            btnGenerate3D.TabIndex = 4;
+            btnGenerateImage.TabIndex = 5;
+            btnViewObjects.TabIndex = 6;
+            btnOpen3DFolder.TabIndex = 7;
+            btnOpenImageFolder.TabIndex = 8;
+            btnImportToGame.TabIndex = 9;           
+            btnAbout.TabIndex = 10;
+            btnHelp.TabIndex = 11;
 
             // Add controls in proper order (top to bottom)
             this.Controls.Add(lblExamplePrompt);
