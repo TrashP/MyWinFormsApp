@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Designer Help</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #004080;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .help-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #004080;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paradise Designer AI Images and Models Help</h1>
+        <p>Your guide to using the application</p>
+    </header>
+    <main>
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to Paradise Designer AI Images and Models App! This guide shows you how to set up and use the main features step by step.</p>
+            <p>The app can be navigated with your keyboard. Press up and down keys to move around the different fields. Press Enter to click a button. Press Spacebar to open the list of Microphones and Enter to select a Microphone.</p>
+            <img class="help-img" src="help/Initial.png" alt="Initial view of the app.">
+        </section>
+
+        <section>
+            <h2>2. App Settings</h2>
+            <ul>
+                <li>Select your microphone from the dropdown list.</li>
+                <li>Enter a filename for saving your image or 3D model.</li>
+                <li>If no microphone is available, type your prompt directly into the text box.</li>
+            </ul>
+            <img class="help-img" src="help/MicSelect.png" alt="Choose Microphone for the app.">
+            <br />
+            <img class="help-img" src="help/micFilePrompt.png" alt="Choose initial settings for the app.">
+        </section>
+
+        <section>
+            <h2>3. Record From Microphone</h2>
+            <ul>
+                <li>Click <strong>Record from Microphone</strong>.</li>
+                <li>Speak your prompt.</li>
+                <li>Click <strong>Stop Recording</strong> when finished.</li>
+                <li>Wait while Whisper AI transcribes your speech into the textbox.</li>
+                <li>The timer shows how long you recorded.</li>
+            </ul>
+            <img class="help-img" src="help/RecordMic.png" alt="Record from Microphone button.">
+            <br />
+            <img class="help-img" src="help/StopRecord.png" alt="Stop Recording button.">
+        </section>
+
+        <section>
+            <h2>4. Generating Images</h2>
+            <ul>
+                <li>Click <strong>Generate Image</strong> and wait for Stable Diffusion to process.</li>
+                <li>Once Successfully Generated appears, check the <em>images</em> folder.</li>
+                <li>Click <strong>Open Image Folder</strong> to view all saved images.</li>
+            </ul>
+            <img class="help-img" src="help/GenerateImage.png" alt="Generate image button">
+            <br />
+            <img class="help-img" src="help/OpenImageFolder.png" alt="Open image folder">
+        </section>
+
+        <section>
+            <h2>5. Generating 3D Models</h2>
+            <ul>
+                <li>Click <strong>Generate 3D Object</strong>.</li>
+                <li>Wait while Stable Diffusion and TripoSR generate the object.</li>
+                <li>When Successfully Generated appears, check the <em>3D objects</em> folder.</li>
+                <li>Click <strong>Open 3D Folder</strong> to view all saved models.</li>
+            </ul>
+            <img class="help-img" src="help/Generate3d.png" alt="Generate 3D button">
+            <br />
+            <img class="help-img" src="help/Open3d.png" alt="Open 3D folder">
+        </section>
+
+        <section>
+            <h2>6. View 3D Objects</h2>
+            <ul>
+                <li>Click <strong>View Objects</strong> to open the folder of models.</li>
+                <li>The app also opens a website to preview 3D objects.</li>
+                <li>Drag and drop a model file into the website to view it.</li>
+            </ul>
+            <img class="help-img" src="help/ViewObjects.png" alt="View 3D objects">
+            <br />
+            <img class="help-img" src="help/View3d.png" alt="Drag and drop 3D objects">
+        </section>
+
+        <section>
+            <h2>7. Import to Game</h2>
+            <ul>
+                <li>Click <strong>Import to Game</strong>.</li>
+                <li>A folder with your 3D objects opens.</li>
+                <li>Select the object you want to import into the game.</li>
+            </ul>
+            <img class="help-img" src="help/Import.png" alt="Import button">
+            <br />
+            <img class="help-img" src="help/SelectImport.png" alt="Select object to import">
+        </section>
+
+        <section>
+            <h2>8. AI Models Usage</h2>
+            <ul>
+                <li><strong>Speech Transcription:</strong> Whisper AI</li>
+                <li><strong>Image Generation:</strong> Stable Diffusion</li>
+                <li><strong>3D Object Generation:</strong> Stable Diffusion, TripoSR</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Developed by Arnab Goswami, Supervised by Prof. Dean Mohamedally, Developed for MotionInput Games Ltd. In collaboration with Intel Corp. (c) 2025+
+    </footer>
+</body>
+</html>
