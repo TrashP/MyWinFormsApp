@@ -3,6 +3,6 @@ bin/
 obj/ 
 *.user 
 *.suo 
-MyWinFormsApp/dist/transcribe_audio.exe
-MyWinFormsApp/dist/generate_image.exe
-MyWinFormsApp/dist/generate_model.exe
+AI3DModelMaker/dist/transcribe_audio.exe
+AI3DModelMaker/dist/generate_image.exe
+AI3DModelMaker/dist/generate_model.exe
