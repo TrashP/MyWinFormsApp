@@ -1,0 +1,8 @@
+.vs/ 
+bin/ 
+obj/ 
+*.user 
+*.suo 
+MyWinFormsApp/dist/transcribe_audio.exe
+MyWinFormsApp/dist/generate_image.exe
+MyWinFormsApp/dist/generate_model.exe
