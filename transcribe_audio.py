@@ -1,24 +1,3 @@
-# # transcribe_audio.py
-# import whisper
-# import sys
-# import json
-
-# def transcribe(audio_path):
-#     model = whisper.load_model("base")  # Use "small" or "medium" for better accuracy
-#     result = model.transcribe(audio_path)
-#     return result["text"]
-
-# if __name__ == "__main__":
-#     if len(sys.argv) < 2:
-#         print("Usage: python transcribe_audio.py path_to_audio.wav")
-#         sys.exit(1)
-    
-#     text = transcribe(sys.argv[1])
-#     with open("speech_text.json", "w") as f:
-#         json.dump({"transcript": text}, f)
- 
-
-
 import whisper
 import sys
 import json
